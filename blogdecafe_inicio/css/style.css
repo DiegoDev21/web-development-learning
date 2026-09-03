@@ -70,3 +70,19 @@ h4 {
 .centrar-texto {
     text-align: center;
 }
+
+/*--HEADER--*/
+
+.header { /*9- */
+    background-image: url(../img/banner.jpg);
+    height: 60rem; /*altura*/
+    background-size: cover; /*para que tome todo el espacio disponible*/
+    background-repeat: no-repeat; /*para que no se repita la imagen*/
+    background-position: center center; /*para que la imagen este bien centrada siempre, (horizontal y verticalmente), por eso dos center*/ 
+}
+
+.header__texto { /*10-*/
+    color: var(--blanco);
+    text-align: center;
+    margin-top: 5rem;
+}
