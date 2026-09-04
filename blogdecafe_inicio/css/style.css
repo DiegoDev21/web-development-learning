@@ -128,3 +128,11 @@ h4 {
     color: var(--blanco);
 }
 
+@media (min-width: 768px) { /*16*/
+    .contenido-principal
+    {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
